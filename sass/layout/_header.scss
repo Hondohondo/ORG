@@ -1,7 +1,14 @@
 .header {
     height: 95vh;
+    // background-image: linear-gradient(
+    //     to right bottom,
+    //     rgba($color-primary-light, 0.8),
+    //     rgba($color-primary-dark, 0.8)),
+    // url(../img/hero.jpg);
+
     background-image: linear-gradient(
-        to right bottom,
+        to left bottom,
+        $color-grey-dark-3,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
     url(../img/hero.jpg);
@@ -24,12 +31,83 @@
 
     &__text-box {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
 }
+
+nav {
+    // background-color: $color-grey-dark;
+    // padding: 3rem 0;
+    // font-size: 1.4rem;
+
+    // color: $color-grey-light-1;
+}
+
+.logo {
+    // height: 10rem;
+    height: 3.5rem;
+    width: auto;
+    float: left;
+    margin-top: 2rem;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    //margin-top: 5.5rem;
+    margin-top: 3rem;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    // padding: 8px 0;
+    // color: #fff;
+    // text-decoration: none;
+    // text-transform: uppercase;
+    font-size: 1.5rem;
+
+    // border-bottom: 2px solid transparent;
+    // transition: border-bottom 0.2s;
+
+   // color: $color-grey-light-1; //white on dark looks a bit weird
+   color: $color-white;
+   //color: $color-grey-dark-3;
+    
+   //background-color: $color-grey-light-2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+
+    transition: all .2s;
+
+    // $color-grey-light-1: #f7f7f7;
+    // $color-grey-light-2: #eee;
+    
+    // $color-grey-dark: #777;
+    // $color-grey-dark-2: #999;
+    // $color-grey-dark-3: #333;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    // border-bottom: 2px solid #e67e22;
+
+    color: $color-primary-dark;
+   //box-shadow: 0 1rem 2rem rgba($color-black, .4);
+
+    transform: rotate(5deg) scale(1.3);
+
+}
+
 
 
 
