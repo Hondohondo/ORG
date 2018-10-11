@@ -80,6 +80,9 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+#portfolio {
+  margin-top: 4rem; }
+
 .block-text {
   width: 70%;
   margin: 0 auto; }
@@ -204,17 +207,6 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
-.composition composition__photo composition__photo--p1:hover + #portfolio {
-  display: block; }
-
-#title {
-  display: none;
-  color: #ffffff;
-  background-color: #000000;
-  text-align: center;
-  width: 130px;
-  padding: 10px; }
-
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
@@ -312,7 +304,9 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     width: 80%;
-    float: right; }
+    float: right;
+    text-transform: uppercase;
+    text-align: center; }
 
 .row {
   max-width: 114rem;

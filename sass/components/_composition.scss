@@ -53,22 +53,22 @@
 }
 
 //.composition:hover .composition__photo:not(:hover)
-.composition composition__photo composition__photo--p1:hover + #portfolio {
-    display: block;
-}
+// .composition composition__photo composition__photo--p1:hover + #portfolio {
+//     display: block;
+// }
 // &:hover + #portfolio {
 //     display: block;
 // }
 
 
-#title {
-    display: none;
+// #title {
+//     display: none;
 
-    color: #ffffff;
-    background-color: #000000;
-    text-align: center;
+//     color: #ffffff;
+//     background-color: #000000;
+//     text-align: center;
 
-    width: 130px;
-    padding: 10px;
-}
+//     width: 130px;
+//     padding: 10px;
+// }
 

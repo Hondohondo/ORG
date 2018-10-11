@@ -10,6 +10,7 @@ body {
 
 .heading-primary {
     color: $color-white;
+    //color: #00415c;
     text-transform: uppercase;
 
     backface-visibility: hidden;
@@ -53,9 +54,9 @@ body {
     }
 }
 
-// #portfolio {
-//     display: none;
-// }
+#portfolio {
+    margin-top: 4rem;
+}
 
 // #property {
 //     display: none;
