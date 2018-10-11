@@ -7,11 +7,12 @@
     // url(../img/hero.jpg);
 
     background-image: linear-gradient(
-        to left bottom,
+        to bottom,
         $color-grey-dark-3,
         rgba($color-primary-light, 0.8),
+        rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-    url(../img/hero.jpg);
+    url(../img/3.jpg);
     
     background-size: cover;
     background-position: top;
@@ -25,9 +26,9 @@
         left: 4rem;
     }
 
-    &__logo {
-        height: 3.5rem;
-    }
+    // &__logo {
+    //     height: 3.5rem;
+    // }
 
     &__text-box {
         position: absolute;
@@ -47,8 +48,7 @@ nav {
 }
 
 .logo {
-    // height: 10rem;
-    height: 3.5rem;
+    height: 7rem;
     width: auto;
     float: left;
     margin-top: 2rem;
@@ -58,7 +58,7 @@ nav {
     float: right;
     list-style: none;
     //margin-top: 5.5rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .main-nav li {
